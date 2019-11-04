@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './Header.module.css';
+import styles from './Header.module.css';
 
 function Header() {
     return (
-        <div>
+        <div className={styles.header}>
             Header
         </div>
     );

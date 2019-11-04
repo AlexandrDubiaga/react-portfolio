@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.css';
 import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 
-function App() {
+const App =() => {
     return (
-        <div className="App">
+        <div className={styles.App}>
             <div className="portfolio">
                 <Header />
+                <Main />
             </div>
         </div>
     );
