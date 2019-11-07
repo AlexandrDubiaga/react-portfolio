@@ -1,4 +1,87 @@
-.skills{
-    height: 100vh;
-    background-color: darkgray;
+.skills {
+     height: 100vh;
+     background-color: lightgray;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+.container {
+    border: 1px solid;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: navajowhite;
+}
+
+.imges {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imges div {
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+
+
+.imgJs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid blue;
+    background-color: floralwhite;
+}
+
+.imgJs img {
+    width: 100px;
+    height: 100px;
+}
+
+.imgJs div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+
+
+.imgHtml {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid blue;
+    background-color: ghostwhite;
+}
+
+.imgHtml img {
+    width: 100px;
+    height: 100px;
+}
+
+.imgHtml div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+
+.descTitle{
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    background-color: lightcyan;
 }
