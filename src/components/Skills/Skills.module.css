@@ -1,10 +1,10 @@
 .skills {
-     height: 100vh;
-     background-color: lightgray;
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
- }
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .container {
     border: 1px solid;
@@ -25,16 +25,11 @@
     margin-top: 50px;
 }
 
-
-
 .title {
     display: flex;
     justify-content: center;
     font-weight: bold;
 }
-
-
-
 
 .imgJs {
     display: flex;
@@ -45,7 +40,7 @@
 }
 
 .imgJs img {
-    width: 100px;
+    width: 150px;
     height: 100px;
 }
 
@@ -54,9 +49,6 @@
     justify-content: center;
     margin-top: 5px;
 }
-
-
-
 
 .imgHtml {
     display: flex;
@@ -67,7 +59,7 @@
 }
 
 .imgHtml img {
-    width: 100px;
+    width: 150px;
     height: 100px;
 }
 
@@ -77,9 +69,7 @@
     margin-top: 5px;
 }
 
-
-
-.descTitle{
+.descTitle {
     display: flex;
     justify-content: center;
     border: 1px solid green;

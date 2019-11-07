@@ -1,4 +1,29 @@
-.slogan{
+.slogan {
     height: 300px;
     background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.contacts {
+    margin-top: 50px;
+    width: 900px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: floralwhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.contacts  span{
+    font-size: 20px;
+    font-style: italic;
+}
+.sloganTitle{
+    width: 1000px;
+    text-align: center;
+}
+

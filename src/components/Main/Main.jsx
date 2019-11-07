@@ -7,11 +7,11 @@ const Main = () => {
             <div className={styles.container}>
                 <div className={styles.greeting}>
                     <span>Привет</span>
-                    <span>Меня зовут,иван Иванов</span>
-                    <span>Я астронавт</span>
+                    <span>Меня зовут,Александр </span>
+                    <span>Я React разработчик</span>
                 </div>
                 <div className={styles.photo}>
-                    <img src="" alt=""/>
+                    <img src="https://www.beingeorge.com/jeffrey/assets/images/about.jpg" alt=""/>
                 </div>
             </div>
         </div>
