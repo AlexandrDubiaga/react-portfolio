@@ -1,4 +1,52 @@
-.contacts{
-    height: 100vh;
-    background-color: chocolate;
+.contacts {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.formContent {
+    display: flex;
+    width: 700px;
+    height: 400px;
+    border: 1px solid burlywood;
+    margin-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: peachpuff;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.inputs input {
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+
+}
+
+.inputs textarea {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.titleContacts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 150px;
 }

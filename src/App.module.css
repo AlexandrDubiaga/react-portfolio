@@ -1,8 +1,9 @@
 .App {
-    margin: 0 auto;
-width: 1200px;
+    /* margin: 0 auto;
+     width: 1200px;*/
 }
-body{
+
+body {
     background-image: url("https://clipart-db.ru/file_content/rastr/background_024.jpg");
     background-attachment: fixed;
 }

@@ -11,7 +11,7 @@ const Skills = () => {
                 <div className={styles.imges}>
                     <div className={styles.imgJs}>
                         <div>
-                            <img src="https://i.udemycdn.com/course/240x135/1411694_0862.jpg" />
+                            <img src="https://i.udemycdn.com/course/240x135/1411694_0862.jpg"/>
                         </div>
                         <div>
                             <span>My Skills</span>

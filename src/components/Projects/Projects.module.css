@@ -39,12 +39,13 @@ h1 {
     font-size: 20px;
 }
 
-.photosBlocks{
+.photosBlocks {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.photosBlocks span{
+
+.photosBlocks span {
     text-align: center;
 }
 
