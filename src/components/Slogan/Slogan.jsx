@@ -6,8 +6,8 @@ const Slogan = () => {
         <div className={styles.slogan}>
             <div className={styles.contacts}>
                 <div className={styles.sloganTitle}><span>Рассматриваю варианты удаленной работы</span></div>
-                <div>
-                    <button>Нанять меня</button>
+                <div className={styles.button}>
+                    <span><a href=""> Нанять меня </a></span>
                 </div>
             </div>
         </div>

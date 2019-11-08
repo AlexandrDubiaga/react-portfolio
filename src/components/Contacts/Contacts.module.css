@@ -7,7 +7,7 @@
 
 .formContent {
     display: flex;
-    width: 700px;
+    width: 1200px;
     height: 400px;
     border: 1px solid burlywood;
     margin-top: 50px;
@@ -16,16 +16,18 @@
     justify-content: space-around;
     background-color: peachpuff;
     margin-bottom: 30px;
+
 }
 
 .form {
     display: flex;
     justify-content: center;
     background-color: lightgoldenrodyellow;
+
 }
 
 .inputs input {
-    width: 200px;
+    width: 400px;
     border-radius: 5px;
     height: 30px;
     margin-bottom: 5px;
@@ -33,7 +35,7 @@
 }
 
 .inputs textarea {
-    width: 200px;
+    width: 400px;
     height: 50px;
     border-radius: 5px;
 }
@@ -47,6 +49,6 @@
 button {
     width: 100px;
     height: 30px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 150px;
 }

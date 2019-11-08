@@ -1,5 +1,4 @@
 .slogan {
-    height: 300px;
     background-color: silver;
     display: flex;
     flex-wrap: wrap;
@@ -8,22 +7,35 @@
 
 .contacts {
     margin-top: 50px;
-    width: 900px;
-    height: 150px;
+    width: 1200px;
+    height: 200px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: floralwhite;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.sloganTitle {
+    display: flex;
     justify-content: center;
-
-}
-.contacts  span{
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
-}
-.sloganTitle{
-    width: 1000px;
-    text-align: center;
+    background-color: darkkhaki;
+    width: 700px;
+    margin: 0 auto;
 }
 
+.button{
+    margin: 0 auto;
+}
+.button span{
+    background-color: lightcyan;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
