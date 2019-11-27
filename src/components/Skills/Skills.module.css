@@ -1,77 +1,44 @@
 .skills {
-    height: 100vh;
     background-color: lightgray;
     display: flex;
+    width: 100%;
     justify-content: center;
-    flex-direction: column;
+
 }
 
-.container {
-    border: 1px solid;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    background-color: navajowhite;
-}
-
-.imges {
+.projects {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.imges div {
-    height: 200px;
-    width: 300px;
-    margin-top: 50px;
+
+.photosBlocks span {
+    text-align: center;
+    color: white;
 }
 
-.title {
+.photosBlocks {
     display: flex;
     justify-content: center;
-    font-weight: bold;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
-.imgJs {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid blue;
-    background-color: floralwhite;
+.projects div {
+    border: 1px solid red;
 }
 
-.imgJs img {
-    width: 150px;
-    height: 100px;
+.projects div img {
+    height: 50%;
+    width: 100%;
 }
 
-.imgJs div {
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
+h1 {
+    text-align: center;
+    margin-top: 0px;
 }
 
-.imgHtml {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid blue;
-    background-color: ghostwhite;
-}
 
-.imgHtml img {
-    width: 150px;
-    height: 100px;
-}
 
-.imgHtml div {
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
-
-.descTitle {
-    display: flex;
-    justify-content: center;
-    border: 1px solid green;
-    background-color: lightcyan;
-}

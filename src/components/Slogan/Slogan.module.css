@@ -3,12 +3,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
 }
 
 .contacts {
     margin-top: 50px;
-    width: 1200px;
-    height: 200px;
+    width: 100%;
     border: 1px solid black;
     border-radius: 5px;
     background-color: floralwhite;
@@ -22,11 +22,13 @@
 .sloganTitle {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
     background-color: darkkhaki;
-    width: 700px;
+    text-align: center;
     margin: 0 auto;
+    margin-bottom: 50px;
+    width: 100%;
 }
 
 .button{

@@ -8,8 +8,7 @@
 }
 
 .content {
-    width: 1200px;
-    height: 200px;
+    width: 100%;
     border: 1px solid black;
     display: flex;
     justify-content: space-around;
@@ -22,7 +21,7 @@
     display: flex;
     justify-content: center;
     background-color: darkkhaki;
-    width: 200px;
+    text-align: center;
     margin: 0 auto;
 
 }
@@ -31,20 +30,20 @@
     display: flex;
     justify-content: center;
     background-color: darkkhaki;
-    width: 200px;
+    text-align: center;
     margin: 0 auto;
+
 }
 
 .main {
     display: flex;
     justify-content: space-between;
-    width: 700px;
-    height: 100px;
     margin: 0 auto;
     border: 1px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: black;
+    flex-wrap: wrap;
 }
 
 .main div {
@@ -53,5 +52,6 @@
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 30px;
     color: white;
 }
