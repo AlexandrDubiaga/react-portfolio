@@ -16,7 +16,7 @@
 
 .photosBlocks span {
     text-align: center;
-    color: white;
+    color: blue;
 }
 
 .photosBlocks {
@@ -24,6 +24,9 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 20px;
+    width: 250px;
+    height: 300px;
+
 }
 
 .projects div {
@@ -42,3 +45,10 @@ h1 {
 
 
 
+@media (max-width: 480px) {
+    .photosBlocks{
+        width:200px;
+        height:250px;
+    }
+
+}

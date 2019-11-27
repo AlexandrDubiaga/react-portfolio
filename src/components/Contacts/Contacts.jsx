@@ -8,9 +8,9 @@ const Contacts = () => {
                 <div className={styles.titleContacts}>Контакты</div>
                 <div className={styles.form}>
                     <form>
-                        <div className={styles.inputs}><input type="text"/></div>
-                        <div className={styles.inputs}><input type="text"/></div>
-                        <div className={styles.inputs}><textarea type="text"/></div>
+                        <div className={styles.inputs}><input placeholder={"Name"} type="text"/></div>
+                        <div className={styles.inputs}><input placeholder={"Email"}  type="text"/></div>
+                        <div className={styles.inputs}><textarea placeholder={"Text..."} type="text"/></div>
                         <div><button>Отправить</button></div>
                     </form>
                 </div>

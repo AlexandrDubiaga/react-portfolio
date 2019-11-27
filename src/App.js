@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
     return (
         <div className={styles.App}>
-            <div className="portfolio">
+            <div className={styles.portfolio}>
                 <Header />
                 <Main />
                 <Skills />

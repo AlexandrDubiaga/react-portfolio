@@ -16,6 +16,7 @@
 }
 
 .form {
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     background-color: lightgoldenrodyellow;
@@ -39,6 +40,7 @@
 .inputs textarea {
     height: 50px;
     border-radius: 5px;
+    width: 100%;
 }
 
 .titleContacts {
