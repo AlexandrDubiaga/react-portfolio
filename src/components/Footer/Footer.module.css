@@ -14,7 +14,7 @@
     justify-content: space-around;
     margin: 0 auto;
     flex-direction: column;
-    background-color: lightcyan;
+    background-color: black;
 }
 
 .title {
@@ -37,13 +37,14 @@
 
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
     border: 1px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: black;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .main div {
