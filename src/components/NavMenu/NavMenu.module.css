@@ -3,7 +3,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
+
 @media (max-width: 480px) {
     .navMenu{
         flex-direction: column;

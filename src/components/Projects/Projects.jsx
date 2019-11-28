@@ -4,6 +4,7 @@ import styles from './Projects.module.css';
 const Projects = () => {
     return (
         <div className={styles.wrapper}>
+            <div className={styles.container}>
             <h1>My Works</h1>
             <div className={styles.navigation}>
                 <a href="" className={styles.link}>All</a>
@@ -29,6 +30,7 @@ const Projects = () => {
                 <span className={styles.descPhotos}>Cup</span>
             </div>
         </div>
+            </div>
         </div>
     );
 }
