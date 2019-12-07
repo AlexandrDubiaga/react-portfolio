@@ -34,12 +34,20 @@
     width: 100%;
 }
 
-h1 {
+h2 {
     text-align: center;
     margin-top: 0px;
     color: white;
+    position: relative;
 }
 
+.line{
+    margin: 0 auto;
+    height: 1px;
+    width: 100px;
+    background-color: red;
+    margin-bottom: 30px;
+}
 .navigation {
     display: flex;
     justify-content: center;

@@ -1,5 +1,5 @@
 .skills {
-    background-color: black;
+    background-color: #1f1f20;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -31,9 +31,7 @@
 
 }
 
-.projects div {
-    border: 1px solid red;
-}
+
 
 .projects div img {
     height: 50%;
