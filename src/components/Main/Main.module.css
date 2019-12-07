@@ -5,6 +5,7 @@
     width: 100%;
     padding-top: 100px;
 
+
 }
 
 .container {
@@ -58,31 +59,45 @@ h1 {
 }
 
 .photo {
-    background-color: darkkhaki;
+    background-color: #1f1f20;
     width: 300px;
     height: 400px;
+    border: 3px solid red;
+    position: relative;
 }
 
 .photo img {
     width: 100%;
-    height: 100%;
+    height:95%;
+    position: absolute;
+    right: 20px;
+    top:10px
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     .photo {
         width: 250px;
         height: 350px;
     }
-
 }
 
 
-@media  (max-width: 326px) {
+@media  (max-width: 318px) {
     .greeting span:nth-child(2) span:before {
        left: -145px;
+        color: aqua;
     }
 
 }
+@media  (max-width:  673px) {
+    .container{
+        flex-direction: column;
+    }
+
+}
+
+
+
 
 
 
