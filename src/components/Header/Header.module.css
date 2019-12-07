@@ -1,17 +1,20 @@
 .header{
-    height: 80px;
+    height: 60px;
     background-color: aqua;
     display: flex;
     width: 100%;
+    position: fixed;
 }
 a{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 .container{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 80%;
+    width: 1200px;
 }
 @media (max-width: 600px) {
     .container{

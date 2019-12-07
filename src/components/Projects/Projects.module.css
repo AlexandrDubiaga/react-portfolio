@@ -1,5 +1,17 @@
 .wrapper {
-    background-color: peachpuff;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .projects {
@@ -14,6 +26,7 @@
     border: 1px solid red;
     margin-bottom: 50px;
     margin-top: 50px;
+
 }
 
 .projects div img {
@@ -24,6 +37,7 @@
 h1 {
     text-align: center;
     margin-top: 0px;
+    color: white;
 }
 
 .navigation {
@@ -36,6 +50,7 @@ h1 {
 .navigation a {
     margin-left: 10px;
     font-size: 20px;
+    color: white;
 }
 
 .photosBlocks {
@@ -48,4 +63,20 @@ h1 {
 .photosBlocks span {
     text-align: center;
 }
+
+@media (max-width: 480px) {
+    .navigation {
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .photosBlocks {
+        width: 80%;
+    }
+
+}
+
 
