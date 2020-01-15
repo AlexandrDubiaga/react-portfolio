@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Projects.module.css';
+import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
     return (
@@ -14,22 +15,10 @@ const Projects = () => {
                     <a href="" className={styles.link}>Images</a>
                 </div>
                 <div className={styles.projects}>
-                    <div className={styles.photosBlocks}>
-                        <img src="https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg"/>
-                        <span className={styles.descPhotos}>My resume</span>
-                    </div>
-                    <div className={styles.photosBlocks}>
-                        <img src="https://www.beingeorge.com/jeffrey/assets/images/p2-2.jpg"/>
-                        <span className={styles.descPhotos}>Space</span>
-                    </div>
-                    <div className={styles.photosBlocks}>
-                        <img src="https://www.beingeorge.com/jeffrey/assets/images/p5-5.jpg"/>
-                        <span className={styles.descPhotos}>PopCorn</span>
-                    </div>
-                    <div className={styles.photosBlocks}>
-                        <img src="https://www.beingeorge.com/jeffrey/assets/images/p7-7.jpg"/>
-                        <span className={styles.descPhotos}>Cup</span>
-                    </div>
+                    <ProjectItem imgSrc="https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg" title="My resume"/>
+                    <ProjectItem imgSrc="https://www.beingeorge.com/jeffrey/assets/images/p2-2.jpg" title="Space"/>
+                    <ProjectItem imgSrc="https://www.beingeorge.com/jeffrey/assets/images/p5-5.jpg" title="PopCorn"/>
+                    <ProjectItem imgSrc="https://www.beingeorge.com/jeffrey/assets/images/p7-7.jpg" title="Cup"/>
                 </div>
             </div>
         </div>
