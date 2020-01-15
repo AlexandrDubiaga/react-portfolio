@@ -3,7 +3,6 @@
     display: flex;
     width: 100%;
     justify-content: center;
-
 }
 .container{
     width: 1200px;
@@ -12,30 +11,23 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
-}
-
-
-.photosBlocks span {
-    text-align: center;
-    color: white;
+    margin: 0 auto;
 }
 
 .photosBlocks {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin: 20px;
-    width: 250px;
-    height: 300px;
-
+    margin-top: 20px;
+    width: 150px;
+    height: 250px;
 }
-
-
-
+.descPhotos{
+    margin-left: 20px;
+}
 .projects div img {
     height: 50%;
-    width: 100%;
+    width: 50%;
+    transform:rotate(45deg);
 }
 
 h1 {
@@ -43,12 +35,11 @@ h1 {
     margin-top: 0px;
 }
 
-
-
 @media (max-width: 480px) {
     .photosBlocks{
-        width:230px;
-        height:230px;
+        width: 150px;
+        height: 250px;
+        margin-left: 100px;
     }
 
 }
