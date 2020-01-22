@@ -4,8 +4,12 @@ import styles from './Projects.module.css';
 const ProjectItem = props => {
     return (
         <div className={styles.photosBlocks}>
-            <img src={props.imgSrc}/>
-            <span className={styles.descPhotos}>{props.title}</span>
+            <div className={styles.imgButton}>
+                <img src={props.imgSrc}/>
+                <button className={styles.button}>Смотреть</button>
+                <span className={styles.descPhotos}>{props.title}</span>
+            </div>
+
         </div>
     )
 }
