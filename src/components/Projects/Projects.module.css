@@ -75,15 +75,15 @@ h2 {
     background-color: peachpuff;
     color: black;
     border-radius: 5px;
-    opacity: 0.8;
+
 }
+
 .imgButton{
     display: flex;
     flex-direction: column;
     position: relative;
 }
 .descPhotos{
-
     background-color: darkmagenta;
     color: white;
 }
@@ -98,17 +98,7 @@ h2 {
     }
 
 }
-@media (max-width: 350px) {
-    .titleBlock {
-       margin-right: 50px;
-    }
 
-}
-@media (max-width: 290px) {
-    .titleBlock {
-        margin-right: 100px;
-    }
-}
 
 
 @media (max-width: 350px) {
@@ -128,6 +118,9 @@ h2 {
     .photosBlocks .descPhotos{
         width: 250px;
     }
+    .titleBlock {
+        margin-right: 50px;
+    }
 
 }
 @media (max-width: 290px) {
@@ -146,6 +139,9 @@ h2 {
     }
     .photosBlocks .descPhotos{
         width: 200px;
+    }
+    .titleBlock {
+        margin-right: 100px;
     }
 
 }
