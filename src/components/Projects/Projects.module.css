@@ -77,6 +77,10 @@ h2 {
     border-radius: 5px;
 
 }
+.imgButton img{
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+}
 
 .imgButton{
     display: flex;
