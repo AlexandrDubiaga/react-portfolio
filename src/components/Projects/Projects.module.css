@@ -22,7 +22,6 @@
 
 }
 
-
 .projects div img {
     height: 400px;
     width: 300px;
@@ -35,13 +34,14 @@ h2 {
     position: relative;
 }
 
-.line{
+.line {
     margin: 0 auto;
     height: 1px;
     width: 100px;
     background-color: red;
     margin-bottom: 30px;
 }
+
 .navigation {
     display: flex;
     justify-content: center;
@@ -67,30 +67,34 @@ h2 {
     width: 300px;
 
 }
-.button{
+
+.button {
     width: 100px;
     position: absolute;
-    top:50px;
+    top: 50px;
     left: 100px;
     background-color: peachpuff;
     color: black;
     border-radius: 5px;
 
 }
-.imgButton img{
+
+.imgButton img {
     filter: alpha(Opacity=50);
     opacity: 0.5;
 }
 
-.imgButton{
+.imgButton {
     display: flex;
     flex-direction: column;
     position: relative;
 }
-.descPhotos{
+
+.descPhotos {
     background-color: darkmagenta;
     color: white;
 }
+
 .photosBlocks span {
     text-align: center;
 }
@@ -103,49 +107,80 @@ h2 {
 
 }
 
-
-
 @media (max-width: 350px) {
     .projects div img {
         height: 350px;
         width: 250px;
     }
-    .button{
+
+    .button {
         width: 100px;
         position: absolute;
-        top:10px;
+        top: 10px;
         left: 75px;
         background-color: peachpuff;
         color: black;
         border-radius: 5px;
     }
-    .photosBlocks .descPhotos{
+
+    .photosBlocks .descPhotos {
         width: 250px;
     }
+
     .titleBlock {
         margin-right: 50px;
     }
 
 }
+
 @media (max-width: 290px) {
     .projects div img {
         height: 300px;
         width: 200px;
     }
-    .button{
+
+    .button {
         width: 100px;
         position: absolute;
-        top:0px;
+        top: 0px;
         left: 50px;
         background-color: peachpuff;
         color: black;
         border-radius: 5px;
     }
-    .photosBlocks .descPhotos{
+
+    .photosBlocks .descPhotos {
         width: 200px;
     }
+
     .titleBlock {
         margin-right: 100px;
+    }
+
+}
+
+@media (max-width: 225px) {
+    .projects div img {
+        height: 200px;
+        width: 120px;
+    }
+
+    .button {
+        width: 100px;
+        position: absolute;
+        top: -50px;
+        left: 10px;
+        background-color: peachpuff;
+        color: black;
+        border-radius: 5px;
+    }
+
+    .photosBlocks .descPhotos {
+        width: 120px;
+    }
+
+    .titleBlock {
+        margin-left: -100px;
     }
 
 }
