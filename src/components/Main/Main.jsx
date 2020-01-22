@@ -11,7 +11,7 @@ const Main = () => {
                     <h1>Я React разработчик</h1>
                 </div>
                 <div className={styles.photo}>
-                    <img src="https://www.beingeorge.com/jeffrey/assets/images/about.jpg" alt=""/>
+                    <img src="https://movienews.film/wp-content/uploads/2018/10/4reit1-e1538650431340.jpg" alt=""/>
                 </div>
             </div>
         </div>

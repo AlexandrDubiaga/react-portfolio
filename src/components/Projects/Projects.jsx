@@ -15,10 +15,10 @@ const Projects = () => {
                     <a href="" className={styles.link}>Images</a>
                 </div>
                 <div className={styles.projects}>
-                    <ProjectItem imgSrc="https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg" title="My resume"/>
-                    <ProjectItem imgSrc="https://www.beingeorge.com/jeffrey/assets/images/p2-2.jpg" title="Space"/>
-                    <ProjectItem imgSrc="https://www.beingeorge.com/jeffrey/assets/images/p5-5.jpg" title="PopCorn"/>
-                    <ProjectItem imgSrc="https://www.beingeorge.com/jeffrey/assets/images/p7-7.jpg" title="Cup"/>
+                    <ProjectItem imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC-iV0IF23D6sDiBVJuUeleIoslsQbQE1efME0S8pQ6uDV8v_L&s" title="My resume"/>
+                    <ProjectItem imgSrc="http://fanoboi.com/3D/193/abstract-green-background-wallpaper-1366x768.jpg" title="Space"/>
+                    <ProjectItem imgSrc="https://oboi-3d.ru/image//data/wallpapers/abstrakcii/ABS038.jpg" title="PopCorn"/>
+                    <ProjectItem imgSrc="https://fotooboi.org.ua/images/product_images/info_images/fotooboi-pastelnaya-abstrakciya-1057.jpg" title="Cup"/>
                 </div>
             </div>
         </div>

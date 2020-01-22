@@ -24,9 +24,6 @@
     flex-direction: column;
 }
 
-.descPhotos {
-    margin-left: 20px;
-}
 
 .projects div img {
     width: 100px;
@@ -43,3 +40,12 @@ h1 {
     text-align: center;
     margin-bottom: 50px;
 }
+
+@media (max-width: 325px) {
+    .photosBlocks {
+        width:200px;
+        text-align: center;
+    }
+
+}
+
