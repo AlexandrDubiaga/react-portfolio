@@ -11,7 +11,7 @@ import Particles from 'react-particles-js';
 const particlesOut={
     "particles": {
         "number": {
-            "value": 80,
+            "value": 200,
             "density": {
                 "enable": true,
                 "value_area": 800

@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .container {
@@ -72,7 +73,7 @@ h2 {
 .button {
     width: 100px;
     position: absolute;
-    top: 50px;
+    top: 100px;
     left: 100px;
     background-color: peachpuff;
     color: black;
@@ -128,7 +129,7 @@ h2 {
     .button {
         width: 100px;
         position: absolute;
-        top: 10px;
+        top: 60px;
         left: 75px;
         background-color: peachpuff;
         color: black;
@@ -154,7 +155,7 @@ h2 {
     .button {
         width: 100px;
         position: absolute;
-        top: 0px;
+        top: 20px;
         left: 50px;
         background-color: peachpuff;
         color: black;
@@ -180,7 +181,7 @@ h2 {
     .button {
         width: 100px;
         position: absolute;
-        top: -50px;
+        top: -20px;
         left: 25px;
         background-color: peachpuff;
         color: black;
