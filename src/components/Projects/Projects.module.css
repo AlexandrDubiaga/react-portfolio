@@ -20,7 +20,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
 
+
 }
+
 
 .projects div img {
     height: 400px;
@@ -65,6 +67,7 @@ h2 {
     font-style: italic;
     font-weight: bold;
     width: 300px;
+    border-radius: 5px;
 
 }
 
@@ -76,12 +79,13 @@ h2 {
     background-color: peachpuff;
     color: black;
     border-radius: 5px;
+    z-index: 1;
+    opacity: 0.9;
 
 }
 
 .imgButton img {
     filter: alpha(Opacity=50);
-    opacity: 0.5;
 }
 
 .imgButton {
@@ -89,9 +93,18 @@ h2 {
     flex-direction: column;
     position: relative;
 }
+.mainPicture{
+    z-index: 0;
+}
 
+.imgButton .button:hover + .mainPicture {
+    filter: blur(3px);
+}
+.imgButton .button:hover ~ .descPhotos {
+    filter: blur(3px);
+}
 .descPhotos {
-    background-color: darkmagenta;
+    background-color: darkgray;
     color: white;
 }
 
