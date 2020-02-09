@@ -1,5 +1,4 @@
 .wrapper {
-    background-color: black;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +14,6 @@
 }
 
 .projects {
-    background-color: lightgoldenrodyellow;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -176,21 +174,21 @@ h2 {
 @media (max-width: 225px) {
     .projects div img {
         height: 200px;
-        width: 120px;
+        width: 150px;
     }
 
     .button {
         width: 100px;
         position: absolute;
         top: -50px;
-        left: 10px;
+        left: 25px;
         background-color: peachpuff;
         color: black;
         border-radius: 5px;
     }
 
     .photosBlocks .descPhotos {
-        width: 120px;
+        width: 150px;
     }
 
     .titleBlock {

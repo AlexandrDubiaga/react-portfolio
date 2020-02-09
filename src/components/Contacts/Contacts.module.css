@@ -3,13 +3,11 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    background-color: black;
 }
 
 .formContent {
     display: flex;
     width: 1200px;
-    border: 1px solid burlywood;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: peachpuff;
