@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import Fade from 'react-reveal/Fade';
 
 const Footer = () => {
     return (
         <div className={styles.footer}>
+            <Fade left>
             <div className={styles.content}>
                 <div className={styles.title}>
                     <span>Александр Дубяга</span>
@@ -19,7 +21,7 @@ const Footer = () => {
                 </div>
 
             </div>
-
+        </Fade>
         </div>
     );
 }

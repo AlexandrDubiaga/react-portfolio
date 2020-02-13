@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './Contacts.module.css';
+import Fade from 'react-reveal/Fade';
 
 const Contacts = () => {
     return (
         <div className={styles.contacts}>
+            <Fade right>
             <div className={styles.formContent}>
                 <div className={styles.titleContacts}>Контакты</div>
                 <div className={styles.form}>
@@ -15,6 +17,7 @@ const Contacts = () => {
                     </form>
                 </div>
             </div>
+            </Fade>
         </div>
     );
 }
