@@ -12,12 +12,13 @@
     flex-direction: column;
 }
 
-.form form{
+.form form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.inputs{
+
+.inputs {
     width: 500px;
 
 }
@@ -49,16 +50,44 @@
     font-size: 20px;
 }
 
-button {
+.buttonSubmit {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
     height: 30px;
     margin-top: 100px;
     margin-bottom: 30px;
-    border-radius: 2px;
-    background-color: #1f1f20;
-    color: white;
+    border: 0px;
+    background-color: #1F1F20;
+    padding: 0px;
 }
+
+.buttonSubmit:after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 5px;
+    background-color: #e9548d;
+    bottom: -2px;
+    z-index: -1;
+    transition: 500ms
+}
+
+.buttonSubmit:hover:after {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    transition: 500ms
+}
+
 @media (max-width: 550px) {
-    .inputs{
+    .inputs {
         width: 350px;
 
     }
@@ -66,14 +95,15 @@ button {
 }
 
 @media (max-width: 370px) {
-    .inputs{
+    .inputs {
         width: 250px;
 
     }
 
 }
+
 @media (max-width: 280px) {
-    .inputs{
+    .inputs {
         width: 200px;
 
     }

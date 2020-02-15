@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css';
+import MyFoto from '../../pic/My.jpg'
 
 const Main = () => {
     return (
@@ -11,7 +12,7 @@ const Main = () => {
                     <h1>Я React разработчик</h1>
                 </div>
                 <div className={styles.photo}>
-                    <img src="https://movienews.film/wp-content/uploads/2018/10/4reit1-e1538650431340.jpg" alt=""/>
+                    <img src={MyFoto} alt=""/>
                 </div>
             </div>
         </div>

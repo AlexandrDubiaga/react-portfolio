@@ -31,13 +31,7 @@ const Projects = () => {
             <div className={styles.container}>
                 <div className={styles.titleBlock}>
                     <h2>My Works</h2>
-                   {/* <div className={styles.line}></div>
-                    <div className={styles.navigation}>
-                        <a href="" className={styles.link}>All</a>
-                        <a href="" className={styles.link}>Slideshow</a>
-                        <a href="" className={styles.link}>Video</a>
-                        <a href="" className={styles.link}>Images</a>
-                    </div>*/}
+                  <div className={styles.line}></div>
                 </div>
                 <div className={styles.projects}>
                     <ProjectItem {...obj.network}/>

@@ -13,7 +13,7 @@ const Contacts = () => {
                         <div className={styles.inputs}><input placeholder={"Name"} type="text"/></div>
                         <div className={styles.inputs}><input placeholder={"Email"}  type="text"/></div>
                         <div className={styles.inputs}><textarea placeholder={"Text..."} type="text"/></div>
-                        <div><button>Отправить</button></div>
+                        <div><button className={styles.buttonSubmit}>Отправить</button></div>
                     </form>
                 </div>
             </div>

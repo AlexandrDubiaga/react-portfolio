@@ -7,9 +7,9 @@ const Slogan = () => {
         <div className={styles.slogan}>
             <Fade big>
             <div className={styles.contacts}>
-                <div className={styles.sloganTitle}><span>Рассматриваю варианты удаленной работы</span></div>
+                <div className={styles.sloganTitle}><span>Рассматриваю Bарианты Удаленной Работы</span></div>
                 <div className={styles.button}>
-                    <span><a href=""> Нанять меня </a></span>
+                    <span><a className={styles.buttonShow} href=""> Нанять меня </a></span>
                 </div>
             </div>
         </Fade>
