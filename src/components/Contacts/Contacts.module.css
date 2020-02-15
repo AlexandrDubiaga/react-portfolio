@@ -4,6 +4,7 @@
     width: 100%;
     justify-content: center;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .formContent {
@@ -26,20 +27,27 @@
 .inputs input {
     border-radius: 5px;
     height: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 100%;
     background-color: #1f1f20;
-    border: 1px solid darkslategrey;
     color: white;
+    border: 1px solid darkslategrey;
+    padding-left: 10px;
+    transition: 500ms;
 }
 
 .inputs textarea {
-    height: 100px;
+    padding-left: 10px;
+    height: 150px;
     border-radius: 5px;
     width: 100%;
-    background-color: #1f1f20;
-    border: 1px solid darkslategrey;
     color: white;
+    border: 1px solid darkslategrey;
+    transition: 500ms;
+    background-color: #1f1f20;
+}
+.inputs input:focus,.inputs textarea:focus{
+    border: 1px solid transparent;
 }
 
 .titleContacts {
@@ -61,7 +69,7 @@
     align-items: center;
     justify-content: center;
     height: 30px;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 30px;
     border: 0px;
     background-color: #1F1F20;
