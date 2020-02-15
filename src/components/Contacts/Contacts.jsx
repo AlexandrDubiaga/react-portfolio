@@ -7,21 +7,23 @@ const Contacts = () => {
     return (
         <div className={styles.contacts}>
             <Fade right>
-                <ScrollableAnchor id={'contacts'}>
+
                 <div className={styles.formContent}>
+                    <ScrollableAnchor id={'contacts'}>
                         <div className={styles.titleContacts}>Контакты</div>
-                    <div className={styles.form}>
-                        <form>
-                            <div className={styles.inputs}><input placeholder={"Имя"} type="text"/></div>
-                            <div className={styles.inputs}><input placeholder={"Email"} type="text"/></div>
-                            <div className={styles.inputs}><textarea placeholder={"Сообщение..."} type="text"/></div>
-                            <div>
-                                <button className={styles.buttonSubmit}>Отправить</button>
-                            </div>
-                        </form>
-                    </div>
+                    </ScrollableAnchor>
+                        <div className={styles.form}>
+                            <form>
+                                <div className={styles.inputs}><input placeholder={"Имя"} type="text"/></div>
+                                <div className={styles.inputs}><input placeholder={"Email"} type="text"/></div>
+                                <div className={styles.inputs}><textarea placeholder={"Сообщение..."} type="text"/>
+                                </div>
+                                <div>
+                                    <button className={styles.buttonSubmit}>Отправить</button>
+                                </div>
+                            </form>
+                        </div>
                 </div>
-                </ScrollableAnchor>
             </Fade>
         </div>
     );
