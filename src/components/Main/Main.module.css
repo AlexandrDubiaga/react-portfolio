@@ -88,7 +88,7 @@ h1 {
 @media (min-width: 200px) and (max-width: 318px) {
     .greeting span:nth-child(2) span:before {
         background-color: #f171ff;
-
+        margin-left: -150px;
     }
 }
 
@@ -104,6 +104,7 @@ h1 {
     }
     .greeting span:nth-child(2) span:before {
         width: 160px;
+        margin-left: 0px;
     }
     .greeting span:nth-child(1) {
         font-size: 16px;
