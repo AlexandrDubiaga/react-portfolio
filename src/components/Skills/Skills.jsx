@@ -3,7 +3,7 @@ import styles from './Skills.module.css';
 import BlockTitle from "./BlockTitle";
 import SkillsItem from "./SkillsItem";
 import Fade from 'react-reveal/Fade';
-
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 
 const Skills = () => {
@@ -12,7 +12,6 @@ const Skills = () => {
             <Fade clear>
                 <div className={styles.container}>
                         <BlockTitle title="My Skills"/>
-
                         <div className={styles.projects}>
                     <SkillsItem
                         imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH_W_12M_vYKrZL_OHsacAzkSdezuEIvB_OFx1TobOYRetIgwoLQ&s"
