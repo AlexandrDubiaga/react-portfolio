@@ -20,9 +20,7 @@
     flex-wrap: wrap;
     margin-top: 20px;
 
-
 }
-
 
 .projects div img {
     height: 300px;
@@ -77,12 +75,15 @@ h2 {
     top: 150px;
     left: 100px;
     background-color: peachpuff;
-    color: black;
     border-radius: 5px;
     z-index: 1;
     opacity: 0.9;
     padding: 5px;
 
+}
+
+.button a {
+    color: black;
 }
 
 .imgButton img {
@@ -95,16 +96,19 @@ h2 {
     position: relative;
 
 }
-.mainPicture{
+
+.mainPicture {
     z-index: 0;
 }
 
 .imgButton .button:hover + .mainPicture {
     filter: blur(3px);
 }
+
 .imgButton .button:hover ~ .descPhotos {
     filter: blur(3px);
 }
+
 .descPhotos {
     background-color: darkgray;
     color: white;
@@ -174,7 +178,7 @@ h2 {
 
 }
 
-@media (max-width: 225px) {
+@media (max-width: 210px) {
     .projects div img {
         height: 200px;
         width: 150px;
@@ -195,11 +199,36 @@ h2 {
     }
 
     .titleBlock {
-        margin-left: -100px;
+        margin-left: -60px;
     }
 
 }
 
+@media (max-width: 180px) {
+    .projects div img {
+        height: 200px;
+        width: 100px;
+    }
+
+    .button {
+        width: 80px;
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        background-color: peachpuff;
+        color: black;
+        border-radius: 5px;
+    }
+
+    .photosBlocks .descPhotos {
+        width: 100px;
+    }
+
+    .titleBlock {
+        margin-left: -0px;
+    }
+
+}
 
 
 

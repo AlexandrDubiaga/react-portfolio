@@ -63,3 +63,13 @@
     padding: 5px;
     transition: 500ms
 }
+@media (max-width: 225px) {
+    .sloganTitle {
+        font-size: 20px;
+    }
+.buttonShow{
+    font-size: 15px;
+}
+
+}
+

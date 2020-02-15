@@ -97,6 +97,23 @@ h1 {
         flex-direction: column;
     }
 }
+@media (max-width: 275px) {
+    .greeting span:nth-child(2),
+    .greeting span:nth-child(2) span {
+        font-size: 20px;
+    }
+    .greeting span:nth-child(2) span:before {
+        width: 160px;
+    }
+    .greeting span:nth-child(1) {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 17px;
+    }
+
+}
+
 
 
 

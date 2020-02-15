@@ -32,12 +32,12 @@
     background-color: #1f1f20;
     color: white;
     border: 1px solid darkslategrey;
-    padding-left: 10px;
+    padding-left: 3px;
     transition: 500ms;
 }
 
 .inputs textarea {
-    padding-left: 10px;
+    padding-left: 3px;
     height: 150px;
     border-radius: 5px;
     width: 100%;
@@ -105,7 +105,6 @@
 @media (max-width: 370px) {
     .inputs {
         width: 250px;
-
     }
 
 }
@@ -113,6 +112,20 @@
 @media (max-width: 280px) {
     .inputs {
         width: 200px;
+
+    }
+
+}
+@media (max-width: 240px) {
+    .inputs {
+        width: 150px;
+
+    }
+
+}
+@media (max-width: 180px) {
+    .inputs {
+        width: 90px;
 
     }
 
