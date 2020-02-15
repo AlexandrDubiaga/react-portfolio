@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './Main.module.css';
 import MyFoto from '../../pic/My.jpg'
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const Main = () => {
     return (
+        <ScrollableAnchor id={'main'}>
         <div className={styles.main}>
             <div className={styles.container}>
                 <div className={styles.greeting}>
@@ -16,6 +18,7 @@ const Main = () => {
                 </div>
             </div>
         </div>
+        </ScrollableAnchor>
     );
 }
 

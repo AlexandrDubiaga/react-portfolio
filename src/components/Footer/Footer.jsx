@@ -1,15 +1,18 @@
 import React from 'react';
 import styles from './Footer.module.css';
 import Fade from 'react-reveal/Fade';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const Footer = () => {
     return (
         <div className={styles.footer}>
             <Fade left>
             <div className={styles.content}>
+                <ScrollableAnchor id={'contacts'}>
                 <div className={styles.title}>
                     <span>Александр Дубяга</span>
                 </div>
+                </ScrollableAnchor>
                 <div className={styles.main}>
                     <a href="https://www.facebook.com/profile.php?id=100002788131536"> <div className={styles.facebook}></div></a>
                     <a href="https://twitter.com/Solmir16"> <div className={styles.twitter}></div></a>
