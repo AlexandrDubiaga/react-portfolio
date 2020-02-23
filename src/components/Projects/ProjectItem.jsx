@@ -5,7 +5,7 @@ const ProjectItem = props => {
     return (
         <div className={styles.photosBlocks}>
             <div className={styles.imgButton}>
-                <button className={styles.button}><a href={props.link}>Смотреть</a> </button>
+                <button className={styles.button}><a href={props.link}>View code</a> </button>
                 <img className={styles.mainPicture}   src={props.imgSrc}/>
                 <span className={styles.descPhotos}>{props.title}</span>
             </div>

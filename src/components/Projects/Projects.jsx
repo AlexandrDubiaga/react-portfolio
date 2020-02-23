@@ -5,23 +5,40 @@ import social from "../img/social.jpg"
 import todolist from "../img/todolist.png"
 import Fade from 'react-reveal/Fade';
 import ScrollableAnchor from 'react-scrollable-anchor'
+import counter from '../../pic/counter.png'
 
 const Projects = () => {
     let obj = {
         network: {
-            link: 'https://www.google.com.ua/?hl=ru',
+            link: 'https://github.com/AlexandrDubiaga/Network',
             imgSrc: social,
-            title: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.'
+            title: 'Социальная сеть(Beta).Разрабатывается с использование следующих технологий: ' +
+            'JavaScript  ES6, \n' +
+            'React Redux, ReduxThunk, Redux Form, Reselect, connect, compose, context,\n' +
+            'Flux\n' +
+            'HOC\n' +
+            'CSS3, HTML5, сss-modules\n' +
+            'Node.js\n'+
+            'В этом проекте разработана авторизация, работа с пользователями(удаление, добавление, редактирование). REST APIs,Fetch, Axios, Promises'
         },
         todolist: {
-            link: 'https://www.youtube.com/',
+            link: 'https://github.com/AlexandrDubiaga/TypeScript',
             imgSrc: todolist,
-            title: 'Space'
+            title: 'Лист заданий. Был разработан с использование следующих технологий: ' +
+            'JavaScript  ES6, \n' +
+            'React Redux, ReduxThunk, Redux Form\n' +
+            'Fetch, Axios, Promises\n' +
+            'TypeScript\n' +
+            'Flux\n' +
+            'HOC\n' +
+            'CSS3, HTML5, modules, flex-box, adaptive\n' +
+            'REST APIs, Node.js\n'
         },
-        calculator: {
-            link: 'https://www.rambler.ru/',
-            imgSrc: 'https://oboi-3d.ru/image//data/wallpapers/abstrakcii/ABS038.jpg',
-            title: 'On the other hand, we denounce with righteous indignation and dislike men who are so beguiled'
+        counter: {
+            link: 'https://github.com/AlexandrDubiaga/new_counter',
+            imgSrc: counter,
+            title: 'Счётчик.Используемые технологии:' +
+            'React, localstorage, state, json'
         },
 
 
@@ -32,14 +49,14 @@ const Projects = () => {
                 <div className={styles.container}>
                     <div className={styles.titleBlock}>
                         <ScrollableAnchor id={'projects'}>
-                            <h2>My Works</h2>
+                            <h2>Мои работы</h2>
                         </ScrollableAnchor>
                         <div className={styles.line}></div>
                     </div>
                     <div className={styles.projects}>
                         <ProjectItem {...obj.network}/>
                         <ProjectItem  {...obj.todolist}/>
-                        <ProjectItem {...obj.calculator}/>
+                        <ProjectItem {...obj.counter}/>
                     </div>
                 </div>
 
