@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c4e78cc0.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.8cda179a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.8cda179a.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.cc8b8658.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.03d134af.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.03d134af.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.98067e24.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.98067e24.js.map",
-    "static/js/2.a2b00472.chunk.js": "/react-portfolio/static/js/2.a2b00472.chunk.js",
-    "static/js/2.a2b00472.chunk.js.map": "/react-portfolio/static/js/2.a2b00472.chunk.js.map",
+    "static/js/2.d5a8e1ef.chunk.js": "/react-portfolio/static/js/2.d5a8e1ef.chunk.js",
+    "static/js/2.d5a8e1ef.chunk.js.map": "/react-portfolio/static/js/2.d5a8e1ef.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.6b1db12f2faa0c8bdfa88cf1e0c9ed76.js": "/react-portfolio/precache-manifest.6b1db12f2faa0c8bdfa88cf1e0c9ed76.js",
+    "precache-manifest.d48464f6fa43050066ed711fa341b3f9.js": "/react-portfolio/precache-manifest.d48464f6fa43050066ed711fa341b3f9.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.c4e78cc0.chunk.css.map": "/react-portfolio/static/css/main.c4e78cc0.chunk.css.map",
+    "static/css/main.cc8b8658.chunk.css.map": "/react-portfolio/static/css/main.cc8b8658.chunk.css.map",
     "static/media/My.jpg": "/react-portfolio/static/media/My.9c221b30.jpg",
+    "static/media/counter.png": "/react-portfolio/static/media/counter.43a7f476.png",
+    "static/media/git.png": "/react-portfolio/static/media/git.79f83934.png",
+    "static/media/js.jpg": "/react-portfolio/static/media/js.f8169988.jpg",
+    "static/media/php.jpg": "/react-portfolio/static/media/php.153cf575.jpg",
     "static/media/social.jpg": "/react-portfolio/static/media/social.4c6cab40.jpg",
     "static/media/todolist.png": "/react-portfolio/static/media/todolist.4a831117.png"
   },
   "entrypoints": [
     "static/js/runtime-main.98067e24.js",
-    "static/js/2.a2b00472.chunk.js",
-    "static/css/main.c4e78cc0.chunk.css",
-    "static/js/main.8cda179a.chunk.js"
+    "static/js/2.d5a8e1ef.chunk.js",
+    "static/css/main.cc8b8658.chunk.css",
+    "static/js/main.03d134af.chunk.js"
   ]
 }
