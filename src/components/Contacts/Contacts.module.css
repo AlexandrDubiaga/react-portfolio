@@ -30,6 +30,17 @@
     text-align: center;
 
 }
+.errorMessage{
+   margin-bottom: 0px;
+    text-align: center;
+    position: absolute;
+    top:25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+
+
+}
 
 .inputs input {
     border-radius: 5px;
