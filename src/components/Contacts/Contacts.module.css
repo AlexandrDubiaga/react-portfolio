@@ -6,6 +6,12 @@
     position: relative;
     margin-bottom: 30px;
 }
+.message{
+    top: 25px;
+    position: absolute;
+    color: cyan;
+    font-size: 18px;
+}
 
 .formContent {
     display: flex;
@@ -21,6 +27,7 @@
 
 .inputs {
     width: 500px;
+    text-align: center;
 
 }
 
