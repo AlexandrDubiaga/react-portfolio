@@ -28,6 +28,7 @@
 .inputs {
     width: 500px;
     text-align: center;
+    background-color: #1f1f20;
 
 }
 .errorMessage{
@@ -37,7 +38,7 @@
     top:25px;
     font-size: 18px;
     font-weight: bold;
-    color: red;
+    color: skyblue;
 
 
 }
@@ -52,6 +53,7 @@
     border: 1px solid darkslategrey;
     padding-left: 3px;
     transition: 500ms;
+
 }
 
 .inputs textarea {

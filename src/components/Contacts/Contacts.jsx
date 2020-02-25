@@ -17,7 +17,43 @@ const Contacts = () => {
             setDisabled(false)
         }
     });
-    let validator = (func, currentValue, value, lenght) => {
+    let validatorEmail = (func, currentValue, value, lenght) => {
+        if (currentValue.length === 0) {
+            func('');
+            sendMessage(`Поле ${value} не должно быть пустым`);
+            setDisabled(true)
+        } else if (currentValue.length > lenght) {
+            sendMessage(`Доступно ${lenght} символов`);
+            setDisabled(true)
+        }else if(/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i.test(currentValue)===false){
+            func(currentValue);
+            sendMessage(`Не валидный email`);
+            setDisabled(true)
+        } else {
+            sendMessage('');
+            func(currentValue);
+        }
+    }
+    let validatorName = (func, currentValue, value, lenght) => {
+
+        if (currentValue.length === 0) {
+            func('');
+            sendMessage(`Поле ${value} не должно быть пустым`);
+            setDisabled(true)
+        } else if (currentValue.length > lenght) {
+            sendMessage(`Доступно ${lenght} символов`);
+            setDisabled(true)
+        }else if(/[^A-zА-яЁё\s\-]/.test(currentValue)===true){
+            func(currentValue);
+            sendMessage(`Недопустимое имя`);
+            setDisabled(true)
+        } else {
+            sendMessage('');
+            func(currentValue);
+        }
+    }
+
+    let validatorText = (func, currentValue, value, lenght) => {
         if (currentValue.length === 0) {
             func('');
             sendMessage(`Поле ${value} не должно быть пустым`);
@@ -31,14 +67,13 @@ const Contacts = () => {
         }
     }
     let changeName = (e) => {
-        validator(setName, e.currentTarget.value, 'имя', 40);
+        validatorName(setName, e.currentTarget.value, 'имя', 40);
     }
     let changeEmail = (e) => {
-      /*  /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i*/
-        validator(setEmail, e.currentTarget.value, 'email', 25);
+        validatorEmail(setEmail, e.currentTarget.value, 'еmail', 40);
     }
     let changeText = (e) => {
-        validator(setText, e.currentTarget.value, 'text', 50);
+        validatorText(setText, e.currentTarget.value, 'текст', 1000);
     }
     let sendForm = (e) => {
         e.preventDefault();
