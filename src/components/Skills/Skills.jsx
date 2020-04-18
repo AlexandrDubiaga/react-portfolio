@@ -10,6 +10,7 @@ import js from '../../pic/js.jpg'
 import db from '../../pic/db.jpg'
 import git from '../../pic/git.png'
 import php from '../../pic/php.jpg'
+import native from '../../pic/native.png'
 
 
 
@@ -37,6 +38,20 @@ let skills={
     php:{
         title:'Php, Laravell',
         img:php
+    },
+    native:{
+        title:'React Native,\n' +
+        '    Expo,\n' +
+        '    render props,\n' +
+        '    flex, hooks,\n' +
+        '    ref,\n' +
+        '    async func,\n' +
+        '    React Navigation,\n' +
+        '    hoc,\n' +
+        '    Firebase,\n' +
+        '    SqLlite,\n' +
+        '    Android/iOS',
+        img:native
     }
 
 
@@ -50,6 +65,7 @@ const Skills = () => {
                 <div className={styles.container}>
                     <BlockTitle title="Мои навыки "/>
                     <div className={styles.projects}>
+                        <SkillsItem imgSrc={skills.native.img} title={skills.native.title}/>
                         <SkillsItem imgSrc={skills.react.img} title={skills.react.title}/>
                         <SkillsItem imgSrc={skills.htmlCss.img} title={skills.htmlCss.title}/>
                         <SkillsItem imgSrc={skills.js.img} title={skills.js.title}/>

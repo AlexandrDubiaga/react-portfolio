@@ -6,6 +6,11 @@ import todolist from "../img/todolist.png"
 import Fade from 'react-reveal/Fade';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import counter from '../../pic/counter.png'
+import blog from '../../pic/nativeBlog.jpeg'
+import gallary from '../../pic/gallary.png'
+
+
+
 
 const Projects = () => {
     let obj = {
@@ -40,6 +45,18 @@ const Projects = () => {
             title: 'Счётчик.Используемые технологии:' +
             'React, localstorage, state, json'
         },
+        nativeBlog: {
+            link: 'https://github.com/AlexandrDubiaga/react-native-navigation',
+            imgSrc: blog,
+            title: 'Блог: ' +
+            'React Native, Expo, render props, flex, hooks, ref, async func, React Navigation, hoc, SqLlite, Android/iOS'
+        },
+        gallery: {
+            link: 'https://github.com/AlexandrDubiaga/Gallary_v2',
+            imgSrc: gallary,
+            title: 'Gallary [unsplash]: ' +
+            'React Native, React native init CLI, axios, render props, flex-box, hooks, ref, async func, React Navigation, hoc, SqLlite, Android/iOS'
+        }
 
 
     }
@@ -54,7 +71,9 @@ const Projects = () => {
                         <div className={styles.line}></div>
                     </div>
                     <div className={styles.projects}>
+                        <ProjectItem {...obj.nativeBlog}/>
                         <ProjectItem {...obj.network}/>
+                        <ProjectItem {...obj.gallery}/>
                         <ProjectItem  {...obj.todolist}/>
                         <ProjectItem {...obj.counter}/>
                     </div>

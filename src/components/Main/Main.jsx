@@ -12,7 +12,7 @@ const Main = () => {
                 <div className={styles.greeting}>
                     <span>Добрый день</span>
                     <span>Я <span>Александр! </span>   </span>
-                    <h1>React Redux разработчик</h1>
+                    <h1>React Native developer</h1>
                 </div>
                 <div className={styles.photo}>
                     <img src={MyFoto} alt=""/>
